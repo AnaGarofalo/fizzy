@@ -1,7 +1,6 @@
-# Fizzy
+# Clase de github
 
 This is the source code of [Fizzy](https://fizzy.do/), the Kanban tracking tool for issues and ideas by [37signals](https://37signals.com).
-
 
 ## Deploying Fizzy
 
@@ -90,7 +89,6 @@ After the first deploy is done, any subsequent steps won't need to do that initi
 
     bin/kamal deploy
 
-
 ## Development
 
 ### Setting up
@@ -159,20 +157,16 @@ You can enable or disable [`letter_opener`](https://github.com/ryanb/letter_open
 
 Under the hood, this will create or remove `tmp/email-dev.txt`.
 
-
 ## SaaS gem
 
 37signals bundles Fizzy with [`fizzy-saas`](https://github.com/basecamp/fizzy-saas), a companion gem that links Fizzy with our billing system and contains our production setup.
 
 This gem depends on some private git repositories and it is not meant to be used by third parties. But we hope it can serve as inspiration for anyone wanting to run fizzy on their own infrastructure.
 
-
 ## Contributing
 
 We welcome contributions! Please read our [style guide](STYLE.md) before submitting code.
 
-
 ## License
 
 Fizzy is released under the [O'Saasy License](LICENSE.md).
-
